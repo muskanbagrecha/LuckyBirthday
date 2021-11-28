@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+/* body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+} */
+
+:root{
+    --primary-color: #A7F3D0;
+    --darker-color: #6ee7b7;
+    --lighter-color: #D1FAE5;
+}
+
+#main-container{
+    background-color: var(--primary-color);
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1{
+    color: #065F46;
+}
+
+label{
+    display: block;
+    margin: 30px auto;
+    font-size: 1.25rem;
+}
+
+input{
+    border: 2px solid grey;
+    height: 40px;
+    width: 200px;
+
+}
+
+#submit{
+    background-color: #34D399;
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    display: block;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-color: #10B981;
+}
+
+
+img{
+    width: 25px;
+    height: 25px;
+    margin: 10px 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logo-attribution{
+    font-size: x-small;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+#portfolio{
+    font-size: 1rem;
+    font-weight: bold;
+    color: inherit;
+}
+
+#portfolio-logo{
+    display: block;
+    margin: 14px auto;
+    height: 2rem;
+    width: 2rem;
+}
