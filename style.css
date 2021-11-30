@@ -46,6 +46,8 @@ input{
     display: block;
     margin: 20px auto;
     font-weight: bold;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
 }
 
 #submit:hover{
@@ -83,3 +85,16 @@ footer{
     height: 2rem;
     width: 2rem;
 }
+
+#privacy-notice{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    background-color: rgba(253, 4, 4, 0.6);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    padding: 1em;
+    font-size: small;
+    margin-bottom: 40px;
+}
+    
