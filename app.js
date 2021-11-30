@@ -7,7 +7,7 @@ function parsebirthdate(date)
 {
     year = date.slice(0,4)
     month = date.slice(5,7)
-    day = date.slice(9)
+    day = date.slice(8)
     num = year + month + day
     return parseInt(num)
 }
@@ -23,7 +23,7 @@ function checIfLucky(){
     {
     birthNo = parsebirthdate(birthNo)
     var sum = 0
-    while(birthNo)
+    while(birthNo!=0)
     {
         var digit = birthNo%10;
         sum+=digit;
@@ -32,12 +32,10 @@ function checIfLucky(){
     console.log(sum);
     if(sum%luckyNo==0)
     {
-        console.log("Lucky");
-        message.innerText = "You have a lucky birthday! 🎉"
+        message.innerHTML = "<img src='images/celebration.gif' alt='celebrate' width='400px' height='320px'/><br>You have a lucky birthday! 🎉"
     }
     else{
-        console.log("Unlucky!")
-        message.innerText = "You have an unlucky birthday! 😔"
+        message.innerHTML = "<img src='images/crying.gif' alt='celebrate' width='320px' height='320px'/><br>You have an unlucky birthday! 😔"
     }}
 }
 
